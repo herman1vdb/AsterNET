@@ -21,6 +21,7 @@ namespace AsterNET.Manager.Event
 
 		/// <summary>
 		/// Get/Set the name of the application that is executed.
+        /// <b>Available since : </b> <see href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+11+Documentation" target="_blank" alt="Asterisk 11 wiki docs">Asterisk 11</see>.
 		/// </summary>
 		public string Application
 		{
@@ -29,6 +30,7 @@ namespace AsterNET.Manager.Event
 		}
 		/// <summary>
 		/// Get/Set the parameters passed to the application that is executed. The parameters are separated by a '|' character.
+        /// <b>Available since : </b> <see href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+11+Documentation" target="_blank" alt="Asterisk 11 wiki docs">Asterisk 11</see>.
 		/// </summary>
 		public string AppData
 		{
@@ -37,6 +39,7 @@ namespace AsterNET.Manager.Event
 		}
 		/// <summary>
 		/// Get/Set the name of the context of the connected extension.
+        /// <b>Available since : </b> <see href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+11+Documentation" target="_blank" alt="Asterisk 11 wiki docs">Asterisk 11</see>.
 		/// </summary>
 		public string Context
 		{
@@ -45,6 +48,7 @@ namespace AsterNET.Manager.Event
 		}
 		/// <summary>
 		/// Get/Set the extension.
+        /// <b>Available since : </b> <see href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+11+Documentation" target="_blank" alt="Asterisk 11 wiki docs">Asterisk 11</see>.
 		/// </summary>
 		public string Extension
 		{
@@ -53,6 +57,7 @@ namespace AsterNET.Manager.Event
 		}
 		/// <summary>
 		/// Get/Set the priority.
+        /// <b>Available since : </b> <see href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+11+Documentation" target="_blank" alt="Asterisk 11 wiki docs">Asterisk 11</see>.
 		/// </summary>
 		public int Priority
 		{

@@ -18,6 +18,7 @@ namespace AsterNET.Manager.Event
 		/// Channel type
 		/// "SIP",
 		/// "IAX2"
+        /// <b>Available since : </b> <see href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+12+Documentation" target="_blank" alt="Asterisk 12 wiki docs">Asterisk 12</see>.
 		/// </summary>
 		public string ChannelType
 		{
@@ -27,7 +28,8 @@ namespace AsterNET.Manager.Event
 		/// <summary>
 		/// Get/Set the domain or host name of the SIP or IAX2 server.<br/>
 		/// This is the host part used in the register lines in
-		/// iax.conf and sip.conf.
+        /// iax.conf and sip.conf. <br/>
+        /// <b>Available since : </b> <see href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+12+Documentation" target="_blank" alt="Asterisk 12 wiki docs">Asterisk 12</see>.
 		/// </summary>
 		public string Domain
 		{
@@ -37,7 +39,8 @@ namespace AsterNET.Manager.Event
 		/// <summary>
 		/// Get/Set the username used for registration.<br/>
 		/// SIP send the username in case of a registration timeout, IAX2 in case of
-		/// a registration failure. Otherwise the username is null.
+        /// a registration failure. Otherwise the username is null.<br/>
+        /// <b>Available since : </b> <see href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+12+Documentation" target="_blank" alt="Asterisk 12 wiki docs">Asterisk 12</see>.
 		/// </summary>
 		public string Username
 		{
@@ -45,7 +48,8 @@ namespace AsterNET.Manager.Event
 			set { this.username = value; }
 		}
 		/// <summary>
-		/// Sets the username used for registration.
+		/// Sets the username used for registration. <br/>
+        /// /// <b>Removed since : </b> <see href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+10+Documentation" target="_blank" alt="Asterisk 10 wiki docs">Asterisk 10</see>.<br/>/// 
 		/// </summary>
 		/// <deprecated> Please do not use this method it is a workaround for Asterisk 1.0.x servers. See Asterisk bug 4916.</deprecated>
 		public string User
@@ -72,6 +76,10 @@ namespace AsterNET.Manager.Event
 		/// </ul>
 		/// Successful IAX2 registrations do not use the this property at all.
 		/// </summary>
+        /// <summary>
+        /// <b>Available since : </b> <see href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+12+Documentation" target="_blank" alt="Asterisk 12 wiki docs">Asterisk 12</see>.
+        /// </summary>
+
 		public string Status
 		{
 			get { return status; }
@@ -81,6 +89,9 @@ namespace AsterNET.Manager.Event
 		/// Get/Set the cause of a rejected registration.
 		/// The cause of a rejected registration or "&lt;unknown&gt;" if the cause is unknown.
 		/// </summary>
+      /// <summary>
+        /// <b>Available since : </b> <see href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+12+Documentation" target="_blank" alt="Asterisk 12 wiki docs">Asterisk 12</see>.
+        /// </summary>
 		public string Cause
 		{
 			get { return cause; }

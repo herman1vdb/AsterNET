@@ -15,6 +15,7 @@ namespace AsterNET.Manager.Event
 
 		/// <summary>
 		/// Get/Set the name of the queue that contains this entry.
+        /// <b>Available since : </b> <see href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+12+Documentation" target="_blank" alt="Asterisk 12 wiki docs">Asterisk 12</see>.
 		/// </summary>
 		public string Queue
 		{
@@ -23,6 +24,7 @@ namespace AsterNET.Manager.Event
 		}
 		/// <summary>
 		/// Get/Set the position of this entry in the queue.
+        /// <b>Available since : </b> <see href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+12+Documentation" target="_blank" alt="Asterisk 12 wiki docs">Asterisk 12</see>.
 		/// </summary>
 		public int Position
 		{
@@ -39,6 +41,7 @@ namespace AsterNET.Manager.Event
 		}
 		/// <summary>
 		/// Get/Set the Caller*ID name of this entry.
+        /// <b>Available since : </b> <see href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+12+Documentation" target="_blank" alt="Asterisk 12 wiki docs">Asterisk 12</see>.
 		/// </summary>
 		public string CallerIdName
 		{

@@ -22,6 +22,7 @@ namespace AsterNET.Manager.Event
 		/// Channel type
 		/// "SIP",
 		/// "IAX2
+        /// <b>Available since : </b> <see href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+12+Documentation" target="_blank" alt="Asterisk 12 wiki docs">Asterisk 12</see>.
 		/// </summary>
 		public string ChannelType
 		{
@@ -32,6 +33,7 @@ namespace AsterNET.Manager.Event
 		/// Returns the name of the peer that registered. The peer's name starts with "IAX2/" if it is an
 		/// IAX client or "SIP/" if it is a SIP client. It is followed by the username that is used for
 		/// registration.
+        /// <b>Available since : </b> <see href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+12+Documentation" target="_blank" alt="Asterisk 12 wiki docs">Asterisk 12</see>.
 		/// </summary>
 		/// <summary> Sets the name of the peer that registered.</summary>
 		public string Peer
@@ -50,7 +52,9 @@ namespace AsterNET.Manager.Event
 		/// <li>Rejected (IAX only)</li>
 		/// </ul>
 		/// </summary>
-		/// <summary> Sets the registration state.</summary>
+		/// <summary> Sets the registration state.
+        /// <b>Available since : </b> <see href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+12+Documentation" target="_blank" alt="Asterisk 12 wiki docs">Asterisk 12</see>.
+        /// </summary>
 		public string PeerStatus
 		{
 			get { return peerStatus; }
@@ -62,7 +66,9 @@ namespace AsterNET.Manager.Event
 		/// For SIP peers this is set if the status equals "Unregistered" and the peer was unregistered
 		/// due to an expiration. In that case the cause is set to "Expired".
 		/// </summary>
-		/// <summary> Sets the cause of the rejection or unregistration.</summary>
+		/// <summary> Sets the cause of the rejection or unregistration.
+        /// <b>Available since : </b> <see href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+12+Documentation" target="_blank" alt="Asterisk 12 wiki docs">Asterisk 12</see>.
+        /// </summary>
 		public string Cause
 		{
 			get { return cause; }
@@ -72,6 +78,7 @@ namespace AsterNET.Manager.Event
 		/// Returns the ping time of the client if status equals "Reachable" or "Lagged"; if the status
 		/// equals "Unreachable" it returns how long the last response took (in ms) for IAX peers or -1
 		/// for SIP peers.
+        /// <b>Available since : </b> <see href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+12+Documentation" target="_blank" alt="Asterisk 12 wiki docs">Asterisk 12</see>.
 		/// </summary>
 		public int Time
 		{

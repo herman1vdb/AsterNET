@@ -12,7 +12,9 @@ namespace AsterNET.Manager.Event
 			: base(source)
 		{
         }
-
+        /// <summary>
+        /// <b>Available since : </b> <see href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+13+Documentation" target="_blank" alt="Asterisk 13 wiki docs">Asterisk 13</see>.
+        /// </summary>
         public string Forward { get; set; }
     }
 }

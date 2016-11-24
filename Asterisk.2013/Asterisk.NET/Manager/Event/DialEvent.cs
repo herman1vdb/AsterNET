@@ -7,14 +7,35 @@ namespace AsterNET.Manager.Event
 	/// </summary>
 	public class DialEvent : ManagerEvent
 	{
+        /// <summary>
+        /// <b>Available since : </b> <see href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+11+Documentation" target="_blank" alt="Asterisk 11 wiki docs">Asterisk 11</see>.
+        /// </summary>
 		private string subEvent;
-		private string destination;
+        /// <summary>
+        /// <b>Available since : </b> <see href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+11+Documentation" target="_blank" alt="Asterisk 11 wiki docs">Asterisk 11</see>.
+        /// </summary>
+        private string destination;
 		private string callerId;
-		private string callerIdNum;
-		private string callerIdName;
-		private string srcUniqueId;
-		private string destUniqueId;
-		private string dialString;
+        /// <summary>
+        /// <b>Available since : </b> <see href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+11+Documentation" target="_blank" alt="Asterisk 11 wiki docs">Asterisk 11</see>.
+        /// </summary>
+        private string callerIdNum;
+        /// <summary>
+        /// <b>Available since : </b> <see href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+11+Documentation" target="_blank" alt="Asterisk 11 wiki docs">Asterisk 11</see>.
+        /// </summary>
+        private string callerIdName;
+        /// <summary>
+        /// <b>Available since : </b> <see href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+11+Documentation" target="_blank" alt="Asterisk 11 wiki docs">Asterisk 11</see>.
+        /// </summary>
+        private string srcUniqueId;
+        /// <summary>
+        /// <b>Available since : </b> <see href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+11+Documentation" target="_blank" alt="Asterisk 11 wiki docs">Asterisk 11</see>.
+        /// </summary>
+        private string destUniqueId;
+        /// <summary>
+        /// <b>Available since : </b> <see href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+11+Documentation" target="_blank" alt="Asterisk 11 wiki docs">Asterisk 11</see>.
+        /// </summary>
+        private string dialString;
 		private string dialStatus;
 		private string src;
 

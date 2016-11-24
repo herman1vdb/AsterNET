@@ -16,11 +16,13 @@ namespace AsterNET.Manager.Event
 
         /// <summary>
         ///     Get/Set if logging has been enabled or disabled.
+        ///     <b>Available since : </b> <see href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+11+Documentation" target="_blank" alt="Asterisk 11 wiki docs">Asterisk 11</see>.
         /// </summary>
         public bool Enabled { get; set; }
 
         /// <summary>
         ///     Get the textual representation of the reason for disabling logging.
+        ///     <b>Available since : </b> <see href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+11+Documentation" target="_blank" alt="Asterisk 11 wiki docs">Asterisk 11</see>.
         /// </summary>
         public string Reason
         {

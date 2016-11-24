@@ -10,7 +10,8 @@ namespace AsterNET.Manager.Event
 		private string module;
 		private string status;
 
-		/// <summary>Reload event status.</summary>
+		/// <summary>Reload event status.
+        /// <br/> <b>Available since : </b> <see href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+12+Documentation" target="_blank" alt="Asterisk 12 wiki docs">Asterisk 12</see>.</summary>
 		public string Status
 		{
 			get { return this.status; }
@@ -21,6 +22,7 @@ namespace AsterNET.Manager.Event
 		/// "Enum"
 		/// "DNSmgr"
 		/// "CDR"
+        /// <br/> <b>Available since : </b> <see href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+12+Documentation" target="_blank" alt="Asterisk 12 wiki docs">Asterisk 12</see>.
 		/// </summary>
 		public string Module
 		{

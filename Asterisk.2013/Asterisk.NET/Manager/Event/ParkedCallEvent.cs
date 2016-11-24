@@ -15,14 +15,19 @@ namespace AsterNET.Manager.Event
 		private string callerIdNum;
 		private string callerIdName;
 
-		/// <summary>Get/Set the extension the channel is parked at.</summary>
+		/// <summary>Get/Set the extension the channel is parked at.
+        /// <b>Available since : </b> <see href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+11+Documentation" target="_blank" alt="Asterisk 11 wiki docs">Asterisk 11</see>.
+        /// </summary>
 		public string Exten
 		{
 			get { return exten; }
 			set { this.exten = value; }
 		}
-		/// <summary>Get/Set the name of the channel that parked the call.</summary>
-		public string From
+		/// <summary>Get/Set the name of the channel that parked the call.
+        /// <b>Available since : </b> <see href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+11+Documentation" target="_blank" alt="Asterisk 11 wiki docs">Asterisk 11</see>.
+        /// </summary>
+
+        public string From
 		{
 			get { return from; }
 			set { this.from = value; }
@@ -31,6 +36,7 @@ namespace AsterNET.Manager.Event
 		/// Get/Set the number of seconds this call will be parked.<br/>
 		/// This corresponds to the parkingtime option in
 		/// features.conf.
+        /// <b>Available since : </b> <see href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+11+Documentation" target="_blank" alt="Asterisk 11 wiki docs">Asterisk 11</see>.
 		/// </summary>
 		public long Timeout
 		{
@@ -47,6 +53,7 @@ namespace AsterNET.Manager.Event
 		}
 		/// <summary>
 		/// Get/Set the Caller*ID number of the parked channel.
+        /// <b>Available since : </b> <see href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+11+Documentation" target="_blank" alt="Asterisk 11 wiki docs">Asterisk 11</see>.
 		/// </summary>
 		public string CallerIdNum
 		{
@@ -55,6 +62,7 @@ namespace AsterNET.Manager.Event
 		}
 		/// <summary>
 		/// Get/Set the Caller*ID name of the parked channel.
+        /// <b>Available since : </b> <see href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+11+Documentation" target="_blank" alt="Asterisk 11 wiki docs">Asterisk 11</see>.
 		/// </summary>
 		public string CallerIdName
 		{
